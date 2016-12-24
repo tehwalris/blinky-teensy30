@@ -1,4 +1,6 @@
 # blinky-teensy30
+[![Build Status](https://travis-ci.org/tehwalris/blinky-teensy30.svg?branch=master)](https://travis-ci.org/tehwalris/blinky-teensy30)
+
 Blinky program built with Vagrant and PlatformIO for the Teensy 3.0 board
 
 ## Initial setup
