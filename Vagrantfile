@@ -24,6 +24,5 @@ Vagrant.configure("2") do |config|
     pip install -U platformio
     sudo sh -c 'curl https://raw.githubusercontent.com/platformio/platformio-core/b51f1f18b6dce6ea12685a358f27ecb906f75e2f/scripts/99-platformio-udev.rules > /etc/udev/rules.d/99-platformio-udev.rules' &> /dev/null
     sudo service udev restart
-    platformio update
   SHELL
 end
